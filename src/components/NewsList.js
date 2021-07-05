@@ -6,14 +6,15 @@ import NewsItem from './NewsItem';
 const NewsListBlock = styled.div`
   box-sizing: border-box;
   padding-bottom: 3rem;
-  width: 668px;
+  width: 350px;
   margin: 0 auto;
   margin-top: 2rem;
-  @media screen and (max-width: 668px) {
-    border: 1px solid tomato;
+  font-size: 7px;
+  @media screen and (max-width: 350px) {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.11rem;
+    padding-right: 0.111rem;
+    font-size: 7px;
   }
 `;
 const NewsList = ({ subject }) => {

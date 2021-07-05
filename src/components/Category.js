@@ -3,8 +3,10 @@ import styled, { css } from 'styled-components';
 
 const CategorySpan = styled.span`
   color: skyblue;
-  margin: 20px;
+  margin: 5px;
   cursor: pointer;
+  font-size: 0.6rem;
+
   &:hover {
     background-color: burlywood;
   }

@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Block = styled.div`
-  display: flex;
-  background-color: lightpink;
+  /* display: flex; */
+  background-color: white;
   margin: 0 20px;
-
+  border-bottom: 1px dotted gray;
+  width: 90%;
   .img {
     margin-right: 1rem;
     img {
@@ -20,6 +21,8 @@ const Block = styled.div`
     line-height: 1.5;
     margin-top: 0.5rem;
     white-space: normal;
+    color: darkslategrey;
+    font-weight: bolder;
   }
   & + & {
     margin-top: 3px;
