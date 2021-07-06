@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Block = styled.div`
-  /* display: flex; */
+  display: flex;
   background-color: white;
   margin: 0 20px;
   border-bottom: 1px dotted gray;
@@ -11,7 +11,7 @@ const Block = styled.div`
     margin-right: 1rem;
     img {
       display: block;
-      width: 200px;
+      width: 100px;
       height: 100px;
       object-fit: cover;
     }

@@ -18,6 +18,10 @@ const NewsListBlock = styled.div`
   }
 `;
 const NewsList = ({ subject }) => {
+  useEffect(() => {
+    console.log(subject);
+    // console.log(match);
+  });
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const address =
@@ -28,6 +32,7 @@ const NewsList = ({ subject }) => {
     setLoading(true);
     const fetchData = async () => {
       try {
+        console.log(address);
         const result = await axios.get(address);
         setData(result.data.articles);
       } catch (e) {
