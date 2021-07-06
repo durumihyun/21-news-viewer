@@ -3,7 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/77318441/124596310-16484980-de9d-11eb-93a7-a387c1688b5b.png)
+
 
 In the project directory, you can run:
 
